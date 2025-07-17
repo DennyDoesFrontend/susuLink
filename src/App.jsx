@@ -1,17 +1,13 @@
-import Button from "./components/Button"
-import Logo from "./components/logo"
-import SignInInput from "./components/SignInInput"
 import SignInSection from "./components/SignInSection"
-import SignInType from "./components/SignInType"
+import SlideShow from "./components/SlideShow"
 
 function App() {
   return (
-    <div>
-      {/* <Logo />
-      <SignInType text='Google' imageLink="/google-icon.png"/>
-      <SignInInput placeholder="Password" icon='ri-lock-2-line'/>
-      <Button text="Log In"/> */}
+    <div className="flex items-center h-screen">
       <SignInSection />
+      <div className="flex-1 bg-clBlue h-full relative">
+        <SlideShow />
+      </div>
     </div>
   )
 }
