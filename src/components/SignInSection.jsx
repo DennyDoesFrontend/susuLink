@@ -1,5 +1,5 @@
 import Button from "./Button";
-import Logo from "./logo";
+import Logo from "./Logo";
 import SignInInput from "./SignInInput";
 import SignInType from "./SignInType";
 
@@ -22,8 +22,8 @@ export default function SignInSection() {
                     <div className="h-[2px] rounded-md w-[30px] bg-slate-200 flex-1"></div>
                 </div>
                 <div className="flex flex-col items-start w-full gap-4">
-                    <SignInInput icon="ri-mail-line" placeholder="Email"/>
-                    <SignInInput icon="ri-lock-line" placeholder="Password"/>
+                    <SignInInput type="email" icon="ri-mail-line" placeholder="Email"/>
+                    <SignInInput type="password" icon="ri-lock-line" placeholder="Password"/>
                 </div>
                 <Button text="Log In" />
             </div>

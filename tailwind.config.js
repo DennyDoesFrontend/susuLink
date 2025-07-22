@@ -9,6 +9,7 @@ export default {
         clWhite: "#F9FAFB",
         clBlack: "#0a1f3b",
         clYellow: "#FBBF24",
+        clText: "#626978",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
